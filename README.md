@@ -9,3 +9,4 @@ u.tml.) no kurām ar toggle pogu palīdzību iespējams parādīt un paslēpt at
 - [ ] Izvēlēto aprīkojumu pēc drag and drop principa iespējams pārvietot un nolikt izvēlētajā vietā (1p)
 - [ ]  Nodrošināti skaņas efekti (pogu klikšķi, fona mūzika, tēlu izdarītās skaņas) (1p)
 - [ ]  Ievietota scroll view komponente, kurā lasāms neliels apraksts par projektā iekļautajiem tēliem (1p)
+- [ ] Iekļauti divi slider elementi, kur viens maina apģērbjamā tēla garumu, bet otrs platumu (1p)
