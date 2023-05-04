@@ -6,6 +6,10 @@ using UnityEngine.UI;
 public class AtteluParadisana : MonoBehaviour {
     public Sprite goblinSlayer;
     public Sprite goblin;
+	public AudioSource skanasAvots1;
+	public AudioClip skanaKoAtskanot1;
+	public AudioSource skanasAvots2;
+	public AudioClip skanaKoAtskanot2;
     public GameObject mainigaisAttels;
     public GameObject vertSlaideris;
 	public GameObject horizSlaideris;
@@ -14,10 +18,12 @@ public class AtteluParadisana : MonoBehaviour {
         if (skaitlis == 0){
 			mainigaisAttels.GetComponent<Image>().sprite =
                 goblinSlayer;
+					skanasAvots1.PlayOneShot(skanaKoAtskanot1);
 		}
         if(skaitlis == 1){
 		 mainigaisAttels.GetComponent<Image>().sprite =
                goblin;	 
+			   	skanasAvots2.PlayOneShot(skanaKoAtskanot2);
 		}
     }
 
